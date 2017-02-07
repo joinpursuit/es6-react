@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from 'jQuery';
-import {Navbar} from '../index';
+import {Navbar, RoboInfo} from '../index';
+import {robotFleet, droneFleet} from '../../seed';
 
 const App = React.createClass({
   componentDidMount() {

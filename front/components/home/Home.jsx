@@ -1,8 +1,10 @@
 import React from 'react';
+import {RoboInfo} from '../index';
+import {robotFleet, droneFleet} from '../../seed';
 
 const Home = (props) => (
  <div>
-   <h1>Welcome to the Access Code Generator!</h1>
+    <RoboInfo robots={robotFleet} drones={droneFleet}/>
  </div>
 );
 
